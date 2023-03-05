@@ -62,7 +62,7 @@ public class U5Hoja4Ej1 {
                     duracionMayor = aux2;
 
                 }
-                if (i == (publicaciones.length - 1)&&duracionMayor.titulo.length()>=3) {
+                if (i == (publicaciones.length - 1)) {
                     System.out.println("El disco mas largo es:\n " + duracionMayor.toString());
                     System.out.println("3 primeras letra y autor: " + duracionMayor.titulo.substring(0, 3) + " " + duracionMayor.autor);
                 }

@@ -54,7 +54,7 @@ public class Plantilla {
         for (int i = 0; i < contador; i++) {
             if (empleados[i] instanceof Programador) {
                 if(empleados[i].clasificacionEdad().equalsIgnoreCase("SENIOR")){
-                    esSenior+=empleados[i].imprimir()+"\n";
+                    esSenior+=empleados[i].imprimir()+" ";
                 }
             }
         }
