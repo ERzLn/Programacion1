@@ -7,7 +7,7 @@ import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.Scanner;
 
-public class Ejercicio1 {
+public class Ejercicio1Hoja2 {
 
     public static void main(String[] args) {
         ArrayList<Integer> listaValores = leeValores();
